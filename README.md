@@ -77,6 +77,7 @@ python gui.py programs/for_range_basic.kpp
 - Add automated test suite and CI workflow.
 - Publish packaged binary releases for Windows.
 
-<br>
-<center>© Kabir</center>
 
+<div align="center">
+© Kabir
+</div>
