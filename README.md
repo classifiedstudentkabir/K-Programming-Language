@@ -67,7 +67,8 @@ python gui.py programs/for_range_basic.kpp
 
 ## Screenshot
 
-`[Screenshot placeholder - add IDE image here]`
+<img width="1366" height="738" alt="image" src="https://github.com/user-attachments/assets/f8cc1bfd-a3c0-4152-a7d6-816eabc9aabf" />
+
 
 ## Roadmap
 
