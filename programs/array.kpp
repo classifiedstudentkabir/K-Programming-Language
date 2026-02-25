@@ -1,0 +1,10 @@
+let numbers be list of 10, 20, 30, 40.
+
+print "Array elements:".
+
+for each num in numbers then
+    print num.
+end.
+
+print "Size of array:".
+print size of numbers.

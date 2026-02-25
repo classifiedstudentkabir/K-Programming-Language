@@ -1,0 +1,7 @@
+let num be 10.
+
+if num modulo 2 is 0 then
+    print "Even number".
+else
+    print "Odd number".
+end.

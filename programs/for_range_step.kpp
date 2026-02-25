@@ -1,0 +1,12 @@
+note: Example 3 — step by 2 (even numbers 0 to 10).
+print "Even numbers from 0 to 10.".
+for i from 0 to 10 step 2 then
+    print i.
+end.
+
+note: Countdown by 3 — descend using negative step stored in variable.
+let countdown_step be 0 minus 3.
+print "Countdown by 3 from 15 to 0.".
+for i from 15 to 0 step countdown_step then
+    print i.
+end.

@@ -1,0 +1,11 @@
+note: Example 1 — basic ascending range.
+print "Counting up from 1 to 5.".
+for i from 1 to 5 then
+    print i.
+end.
+
+note: Example 2 — descending range (auto-step).
+print "Counting down from 5 to 1.".
+for i from 5 to 1 then
+    print i.
+end.

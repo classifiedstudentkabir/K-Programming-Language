@@ -1,0 +1,15 @@
+let num be 153.
+let original be num.
+let sum be 0.
+
+while num is greater than 0 then
+    let digit be num modulo 10.
+    set sum to sum plus digit times digit times digit.
+    set num to num divided by 10.
+end.
+
+if sum is equal to original then
+    print "Armstrong number".
+else
+    print "Not Armstrong".
+end.

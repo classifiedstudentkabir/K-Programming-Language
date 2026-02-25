@@ -1,0 +1,15 @@
+let num be 121.
+let original be num.
+let reverse be 0.
+
+while num is greater than 0 then
+    let digit be num modulo 10.
+    set reverse to reverse times 10 plus digit.
+    set num to num divided by 10.
+end.
+
+if reverse is equal to original then
+    print "Palindrome number".
+else
+    print "Not palindrome".
+end.

@@ -1,0 +1,8 @@
+define function sum_values takes x, y then
+    return x plus y.
+end.
+
+let result be call sum_values with 5, 7.
+
+print "Result:".
+print result.

@@ -1,0 +1,16 @@
+let num be 7.
+let i be 2.
+let is_prime be true.
+
+while i is less than num then
+    if num modulo i is 0 then
+        set is_prime to false.
+    end.
+    set i to i plus 1.
+end.
+
+if is_prime is true then
+    print "Prime number".
+else
+    print "Not prime".
+end.

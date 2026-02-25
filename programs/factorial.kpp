@@ -1,0 +1,12 @@
+define function factorial takes n then
+    if n is less than or equal to 1 then
+        return 1.
+    end.
+    return n times call factorial with n minus 1.
+end.
+
+let num be 5.
+let result be call factorial with num.
+
+print "Factorial is:".
+print result.

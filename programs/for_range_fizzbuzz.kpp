@@ -1,0 +1,16 @@
+note: Example 4 — FizzBuzz rewritten with for-range.
+for n from 1 to 20 then
+    if n modulo 15 is 0 then
+        print "FizzBuzz".
+    else
+        if n modulo 3 is 0 then
+            print "Fizz".
+        else
+            if n modulo 5 is 0 then
+                print "Buzz".
+            else
+                print n.
+            end.
+        end.
+    end.
+end.

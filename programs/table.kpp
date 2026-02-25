@@ -1,0 +1,12 @@
+let num be 2.
+let i be 1.
+
+while i is less than or equal to 10 then
+    let result be num times i.
+    print num.
+    print " x ".
+    print i.
+    print " = ".
+    print result.
+    set i to i plus 1.
+end.

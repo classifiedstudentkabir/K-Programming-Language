@@ -1,0 +1,9 @@
+let a be 10.
+let b be 20.
+let c be 30.
+
+let sum be a plus b.
+set sum to sum plus c.
+
+print "Sum is:".
+print sum.
